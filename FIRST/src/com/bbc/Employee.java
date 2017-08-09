@@ -7,8 +7,7 @@ public class Employee {
     void insert(int i, String n, float s) {  
         id=i;  
         name=n;  
-        salary=s;  
-    }  
+        salary=s;  }  
     void display(){System.out.println(id+" "+name+" "+salary);
     }
 }
